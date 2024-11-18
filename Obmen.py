@@ -43,7 +43,7 @@ def exchange():
                 exchange_rate = data_b["rates"][t_code]
                 t_name = cur[t_code]
                 b_name = cur[b_code]
-                results.append( f" {exchange_rate: .2f} {t_name} за 1 {b_name}")
+                results.append(f"{exchange_rate: .2f} {t_name} за 1 {b_name}")
             if t_code in data_b2["rates"]:
                 exchange_rate = data_b2["rates"][t_code]
                 t_name = cur[t_code]
